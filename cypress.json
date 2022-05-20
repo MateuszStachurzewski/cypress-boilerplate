@@ -1,0 +1,11 @@
+{
+  "baseUrl": 'http://localhost:8080',
+  "responseTimeout": 5000,
+  "requestTimeout": 5000,
+  "pageLoadTimeout": 5000,
+  "defaultCommandTimeout": 5000,
+  "retries": {
+    "runMode": 0,
+    "openMode": 0
+  }
+}

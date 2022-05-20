@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "cypress": "^9.6.1",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "esm": "^3.2.25",
+    "prettier": "^2.6.2"
+  },
+  "scripts": {
+  "lint": "eslint '**/*.{js,}' --max-warnings 0",
+  "lint:fix": "eslint --fix",
+  "open": "cypress open",
+  "test": "cypress run --browser chrome",
+  "docker:build": "docker build -t cy-boilerplate .",
+  "docker:test": "docker run -it cy-boilerplate"
+}
+}
